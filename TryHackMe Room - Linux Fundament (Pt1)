@@ -1,1 +1,30 @@
+# Linux Fundamentals (Pt1) - TryHackMe
+
+**Platform**: TryHackMe
+**Difficulty**: easy
+**Date*: 24 November 2026
+**Focus**: Linux Essential Commands
+
+## Summary
+Linux fundamentals Part 1 explains where linux is used and what uses Linux - providing step by step guide
+on how to launch the Lab machine - alos provides screenshots of how the setup will look. Explains what a command is and
+that being familiar with the terminal (CLI -Command Line Interface) is a critical skill.
+
+## Commands Learned
+ whoami - Tells you who yoou are, usefull when swithcing users and need to make sure who you are logged in as.
+ echo - output some specific text that is provided e.x in terminal type "echo test" hit enter would print test
+ ls - list what's in the current folder - accidently pressed l and enter and listed folders (quick search it is an alias of ls -CF)
+ cd - change directory - move folder ex. "cd Desktop" changes working directory to Desktop ("cd .." returns to the previous directory or goes one back)
+ cat - shows the content of a file ex. "cat test.txt"
+ pwd - prints working directiry - "Where am I?" ex. "pwd - /home/Desktop"
+ find - searches for files by theur name. ex. "find -name password.txt"
+ grep - searches inside for text. ex. " grep "password123""
+
+## Combine Commands and capture output
+ & - Runs command but does not wait for it to finish before you can do anything else. Command runs in the background - helpful for commands that might take a while to complete.
+     or ones you want to keep running.
+ && - Runs both commands, but waits for the first command to fninish first before the next. ex. " update && upgrade "
+ > - Used to direct output. Take the output of a command and send it to a file. This operator will overwrite anything that exists in the file.
+ >> - does the same thing but it will not overwrite just add the output to the bottom of the file.
+
 
